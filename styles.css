@@ -139,7 +139,7 @@ body{
 
     .card__content{
         display: grid;
-        grid-template-columns: 1.3fr 1fr;
+        grid-template-columns: 1.5fr 1fr;
         grid-template-rows: 200px 1fr;
     }
     
@@ -152,8 +152,8 @@ body{
     .figure__ilustration{
         background-image: url(images/hero-desktop.jpg);
         object-fit: cover;
-        background-size: cover;
-        background-position: center;
+        background-size: 100% 100%;
+        background-position: center center;
         height: 100vh;
         grid-column: 2 / 3;
         grid-row: 1/4;
